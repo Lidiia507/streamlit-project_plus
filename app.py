@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("Мій перший додаток у хмарі")
-st.write("Все працює!")
+st.title("Давай знайомитися")
+st.write("Внеси інформацію про себе!")
 name = st.text_input("Як тебе звати?")
 age = st.slider("Скільки тобі років?", 0, 100, 25)
 if st.button("Привіт!"):
